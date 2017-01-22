@@ -1,0 +1,68 @@
+// INTENT SCHEMA
+
+{
+  "intents": [
+    {
+      "intent": "TailoredMKIntent",
+      "slots": [
+        {
+          "name": "Industry",
+          "type": "LIST_OF_INDUSTRIES"
+        }
+	{
+	    “name”: “Position”,
+	    “type”: LIST_OF_POSITIONS”
+	}
+	{
+	    “name”: “Company”,
+	    “type”: “LIST_OF_COMPANIES”
+	}
+	{
+	    “name”: “Hiring”,
+	    “type”: LIST_OF_ACTIVE_HIRING”
+	}
+      ]
+    },
+    {
+      "intent": "GeneralMKIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+
+
+// CUSTOM SLOT TYPES
+
+type:
+LIST_OF_INDUSTRIES
+
+values:
+Accommodations | Accounting | Advertising | Aerospace | Agriculture & Agribusiness | Air Transportation | Apparel & Accessories | Auto | Banking | Beauty & Cosmetics | Biotechnology | Chemical | Communications | Computer | Construction | Consulting | Consumer Products | Education | Electronics | Employment | Energy | Entertainment & Recreation | Fashion | Financial Services | Fine Arts | Food & Beverage | Health | Information | Information Technology | Insurance | Journalism & News | Legal Services | Manufacturing | Media & Broadcasting | Medical Devices & Supplies | Motion Pictures & Video | Music | Pharmaceutical | Public Administration | Public Relations | Publishing | Rail | Real Estate | Retail | Service | Sports | Technology | Telecommunications | Tourism | Transportation | Travel | Utilities | Video Game | Web Services
+
+
+type:
+LIST_OF_POSITIONS
+
+values:
+Account Coordinator | Actuarial Analyst | Actuarial Assistant | Advertising Sales Assistant | Allocation Analyst | Assistant Media Buyer | Assistant Media Planner | Auditor | Biomedical Engineer | Buyer Trainee | Carpenter Apprentice | Chemical Engineer | Chemistry Teacher | Claims Adjuster | Computer Engineer | Computer Programmer | Consulting Analyst | Copywriter | Credit Analyst | Diagnostic Medical Sonographer | Editorial Assistant | Electrical Engineer | Electrician Apprentice | Elementary School Teacher | Environmental Engineering Technician | Environmental Engineer | Event Planner | Financial Analyst | Graphic Designer | Guidance Counselor HVAC Apprentice | Human Resources Assistant | Information Security Analyst | IT Analyst | Junior Accountant | Junior Chemist | Junior Engineer | Management Trainee | Marketing Analyst | Marketing Coordinator | Marketing Assistant | Mathematics Teacher | Mechanical Engineer | Occupational Therapy Assistant | Occupational Therapist | Operations Analyst | Patient Representatives | Petroleum Engineer | Physics Teacher | Physical Therapist | Physical Therapy Assistant | Physician's Assistant | Plumber Apprentice | Programmer | Public Relations Specialist | Public Relations Assistant | Publicity Assistant | Recruiting Assistant | Registered Nurse | Research Assistant | Research Associate | Research Technician | Retail Management Trainee | Sales Assistant | Sales Representative | Sales Trainee | Social Media Specialist | Social Worker | Software Engineer | Special Educator | Training Specialist | Truck Driver Apprentice | Underwriter | Underwriter Assistant | Web Applications Developer
+
+
+
+type:
+LIST_OF_COMPANIES
+
+
+values: 
+White House
+
+
+
+type:
+LIST_OF_ACTIVE_HIRING
+
+
+values:
+The Cabinet
