@@ -66,3 +66,21 @@ LIST_OF_ACTIVE_HIRING
 
 values:
 The Cabinet
+
+
+
+
+
+// SAMPLE UTTERANCES
+
+TailoredMKIntent ask me an interview question on behalf of {Hiring}
+TailoredMKIntent IÕm applying for {Company}. Can you help me?
+TailoredMKIntent IÕd like to apply to {Industry}
+TailoredMKIntent I want to be {Positiion}
+TailoredMKIntent Help me apply for {Position} at {Company}
+TailoredMKIntent Help me apply for {Position} in {Industry}
+GeneralMKIntent what can I do to prepare for an interview
+GeneralMKIntent what is a typical interview question
+GeneralMKIntent give me an interview question
+GeneralMKIntent help me prepare for my interview
+
