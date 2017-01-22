@@ -10,16 +10,16 @@
           "type": "LIST_OF_INDUSTRIES"
         }
 	{
-	    “name”: “Position”,
-	    “type”: LIST_OF_POSITIONS”
+	    "name": "Position",
+	    "type": LIST_OF_POSITIONS"
 	}
 	{
-	    “name”: “Company”,
-	    “type”: “LIST_OF_COMPANIES”
+	    "name": "Company",
+	    "type": "LIST_OF_COMPANIES"
 	}
 	{
-	    “name”: “Hiring”,
-	    “type”: LIST_OF_ACTIVE_HIRING”
+	    "name": "Hiring",
+	    "type": LIST_OF_ACTIVE_HIRING"
 	}
       ]
     },
@@ -74,8 +74,8 @@ The Cabinet
 // SAMPLE UTTERANCES
 
 TailoredMKIntent ask me an interview question on behalf of {Hiring}
-TailoredMKIntent I’m applying for {Company}. Can you help me?
-TailoredMKIntent I’d like to apply to {Industry}
+TailoredMKIntent I√ïm applying for {Company}. Can you help me?
+TailoredMKIntent I√ïd like to apply to {Industry}
 TailoredMKIntent I want to be {Positiion}
 TailoredMKIntent Help me apply for {Position} at {Company}
 TailoredMKIntent Help me apply for {Position} in {Industry}
